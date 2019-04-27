@@ -1,0 +1,132 @@
+.header {
+    height: 79px;
+    background-color: #000000;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.l img {
+    float: left;
+    height: 79px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+.r a {
+    color: #fff;
+}
+
+.r li {
+    float: left;
+    padding-right: 26px;
+    box-sizing: border-box;
+}
+
+.start {
+    text-align: center;
+    line-height: 70px;
+}
+
+.t-breadcrumbs {
+    margin-top: 121px;
+}
+
+.breadcrumbs {
+    margin-bottom: 41px;
+    font-size: 16px;
+}
+
+.movie_bag {
+    background-color: #000;
+}
+
+.movie_list_bgicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/movie_anniu.png);
+    background-size: 64px 64px;
+}
+
+.img-fluid {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.movie_list_words {
+
+    opacity: 0.6;
+    width: 94.8%;
+    display: block;
+    margin: 0 auto;
+    bottom: -50px;
+    height: 50px;
+    transition: bottom 0.5s;
+    position: absolute;
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    font-size:14px;
+}
+.movie_list_words span{
+    float: right;
+}
+
+.active {
+    display: block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .bottom h1 {
+    font-family: '宋体';
+    line-height: 126px;
+}
+
+.footer .bottom span {
+    line-height: 30px;
+}
+
+.footer .bottom p {
+    line-height: 30px;
+}
+
+/* .footer .bottom p:nth-child(9) {
+    padding-bottom: 20px;
+} */
+
+.footer .bottom div {
+    width: 683px;
+    margin: 20px auto;
+    border-top: 1px dashed #000;
+    padding-top: 20px;
+}
+
+.footer .bottom div a {
+    color: #333333;
+    display: inline;
+    line-height: 40px;
+    padding-right: 16px;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+
+.ft img {
+
+    height: 20px;
+
+}
+
+.end img {
+    height: 62px;
+}
+.over{
+    overflow: hidden;
+}
