@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+       var  arr1=[10,56,89,52,36,]
+        var  arr2=[69,57,63,57,63,]
+        Array.prototype.getSum =function (){
+              var sum=0;
+              for(var i=0;i<this.length;i++){
+                  sum=sum+this[i]
+              }
+              return sum;
+         }
+        var   a=  arr1.getSum()
+        console.log(a)
+        var   b=  arr2.getSum()
+        console.log(b)
+     </script>
+</body>
+</html>
